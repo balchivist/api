@@ -1,0 +1,28 @@
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+config.properties
+
+# Backup files
+*.bak
+
+# Environments 
+.env
+.venv
+env/
+venv/ 
+ENV/
+env.bak/
+venv.bak/
+
+# Pycharm
+.idea
+/config.properties
+.DS_Store
+
+# Temporary files from converter
+converter_cache.sqlite
+locales
